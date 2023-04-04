@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		form {		
+			text-align: center;
+			width: 100%;
+			margin: 0 auto;
+		}
+		.red{
+			text-align: center;
+			color: red;
+		}
+		#submit{
+			background-color: green;
+			color: white;
+			font-size: 25px;
+			font-family: sans-serif;
+		}
+
+	</style>
+</head>
+<body style="background-color: cyan;">
+	<h1 class="red">Register Page</h1>
+	<form autocomplete="on">
+		<table style="text-align: left;" align="center" cellpadding="5">
+			<tr>
+				<th>Name: </th>
+				<th><input type="text" placeholder="Full name" ></th>
+			</tr>
+			<tr>
+				<th>Password: </th>
+				<th><input type="Password" placeholder="Password"></th>
+			</tr>
+			<tr>
+				<th>Email id: </th>
+				<th><input type="email" required placeholder="Email"></th>
+			</tr>
+			<tr>
+				<th>Gender:</th>
+				<th>Male<input type="radio" name="hobbies">Female<input type="radio" name="hobbies"></th>
+			</tr>
+			<tr>
+				<th>Contact: </th>
+				<th><input type="number" placeholder="xxx-xxx-xxx"></th>
+			</tr>
+			<tr>
+				<th colspan="2"><h2 class="red">Educational Qualification</h2></th>
+			</tr>
+			
+			<tr>
+				<th>Degree: </th>
+				<th>
+					<select> 
+						<option>BSC</option>
+						<option>MSC</option>
+					</select>
+				</th>
+			</tr>
+			<tr>
+				<th>Engineering: </th>
+				<th>
+					<select> 
+						<option>CSE</option>
+						<option>EEE</option>
+						<option>TEX</option>
+					</select>
+				</th>
+			</tr>
+			<tr>
+				<th>Hobies:</th>
+				<th>Playing Chess<input type="checkbox" name="hobbies" value="on" > Reading Books<input type="checkbox" name="hobbies"></th>
+			</tr>	
+			<tr>
+				<th colspan="2"><h2 class="red">Adress:</h2></th>
+			</tr>
+			<tr>
+				<th colspan="2"><textarea rows="5" cols="50"></textarea></th>
+			</tr>
+			<tr>
+				<th colspan="2">Attach Resume: <input type="file" name=""></textarea></th>
+			</tr>
+			<tr>
+				<th colspan="2" style="text-align: center;"><input type="submit" value="SUBMIT" id="submit"></th>
+			</tr>
+
+
+
+		
+		</table>	
+	</form>
+
+
+</body>
+</html>
